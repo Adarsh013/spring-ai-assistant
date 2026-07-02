@@ -16,6 +16,7 @@ public class WebConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:3000",
+                                "https://spring-ai-demo-react.vercel.app",
                                 "https://spring-ai-demo-react-3nr69ibvf-adarsh-gupta13.vercel.app"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
